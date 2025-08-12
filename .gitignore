@@ -1,0 +1,31 @@
+# OS / Python noise
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Project data & outputs (huge)
+Data/
+graph analysis/
+models/
+**/Orbits/images/
+**/predictions/
+**/output/
+**/output(video setting 2)/
+
+# Media & logs (big, not code)
+*.jpg
+*.JPG
+*.jpeg
+*.png
+*.tif
+*.mp4
+*.SRT
+*.csv
+*.log
+
+# ML weights/models (just in case)
+*.pt
+*.pth
+*.onnx
+*.weights
